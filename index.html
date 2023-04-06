@@ -3,13 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.scss" />
     <title>Dictionary Web</title>
   </head>
   <body>
-    <body>
-      <h1>Olá mundo!!!</h1>
-    </body>
-    <script src="./main.js"></script>
+    <header>
+      <div class="logo">
+        <img
+          class="logo-img"
+          src="./assets/images/logo.svg"
+          alt="imagem de um livro como logo da pagina"
+        />
+      </div>
+      <div class="selectors">
+        <div class="font-selector">
+          <a class="font-name"></a>
+          <img class="arrow-img" src="./assets/images/icon-arrow-down.svg" />
+        </div>
+        <span class="bar"></span>
+        <div class="toggle-theme">
+          <button class="toggle-theme-btn"></button>
+          <img class="theme-img" src="#" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="search-bar">
+        <div class="input-bar"></div>
+        <button class="search-btn">
+          <img
+            src="./assets/images/icon-search.svg"
+            alt="lupa representando o botão de pesquisa"
+          />
+        </button>
+      </div>
+      <section>
+        <div>
+          <div class="search-content">
+            <h1 class="word"></h1>
+            <h2 class="pronunciation"></h2>
+          </div>
+          <div class="audio-play"></div>
+        </div>
+        <div class="type-word">
+          <h2></h2>
+          <hr />
+        </div>
+        <ul>
+          <h2></h2>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <div>
+          <h2 class="synonyms"></h2>
+          <h2 class="res-synonyms"></h2>
+        </div>
+        <div>
+          <h2></h2>
+          <hr />
+        </div>
+        <ul>
+          <li></li>
+        </ul>
+        <hr />
+        <h2></h2>
+      </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
